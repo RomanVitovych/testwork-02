@@ -411,31 +411,42 @@ button {
 .prod-sup{
     position: relative;
     display: inline-block;
+    width: 100%;
 }
 
-.sub__item >a{
+.header .sub__item{
+    width: 150px;
+    background-color: #fff;
+}
+
+.header .sub__item >a{
     display: inline-block;
-    background-color: blue;
+    font-size: 8px;
     color: #000000;
+    text-transform: none;
     padding: 10px 20px;
 }
 
-.sub__item >a:hover{
+.header .sub__item > a:hover{
     color: #e6362c;
+    background-color: transparent;
+    cursor: url("../img/icons/main-arrow.png"), pointer;
 }
 
-.prod-sup__sub{
+
+.header .prod-sup__sub{
     display: none;  
     position: absolute;
-    top: 50px;
+    padding-top: 5px;
+    /* top: 50px; */
     left: 0;
 }
 
-.prod-sup:hover .prod-sup__sub{
+.header .prod-sup:hover .prod-sup__sub{
     display: block;
 }
 
-.sub__item{
+.hover .sub__item{
     white-space: nowrap;
 }
 
@@ -954,7 +965,6 @@ button {
     transform: scale(1.2, 1.2);
     cursor: url("../img/icons/main-arrow.png"), pointer;
 }
-
 
 
 
