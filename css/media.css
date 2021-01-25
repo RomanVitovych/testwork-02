@@ -149,13 +149,14 @@
 
 /* ========== */
 
-.header .menu-arrow-wrap{
+.menu-arrow-wrap{
     height: 5px;
     width: 8px;
     margin-left: 5px;
     transition: all 0.3s linear;
 }
-.header .prod-sup >a:hover .header .menu-arrow-wrap{
+.header .prod-sup >a:hover .menu-arrow-wrap{
+    all: initial;
     background-image: url("../img/icons/header/down-arrow-hover.png");
 }
 
