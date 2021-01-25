@@ -2,7 +2,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    /* cursor: url("../img/icons/main-arrow.png"), pointer; */
 }
 
 *,
@@ -474,7 +473,7 @@ button {
 
 /* ========== */
 
-.header .prod-sup a{
+.header .prod-sup >a{
     display: flex;
     align-items: center;
     color: #fff;
